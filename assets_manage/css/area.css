@@ -1,0 +1,45 @@
+#area_box {
+	position:absolute;
+	border-radius:3px;
+	border:2px solid #C7A20D;
+	z-index:1;
+	width:300px;
+	top: 10%;
+	left: 50%;
+	background:rgba(246, 246, 246, 0.8);
+	font-size:12px;
+	text-align:center;
+}
+#area_box ul li {
+	list-style:none;
+}
+#area_box .msg_box {
+	height:500px;
+	text-align:left;
+	overflow-y:scroll;
+}
+#area_box .alt_btn {
+	background:#D0D1D4 url(../images/btn_submit_2.png) repeat-x;
+	border:1px solid #30B0C8;
+	box-shadow:0 1px 0 #fff;
+	font-weight:bold;
+	border-radius:3px;
+	padding:6px 11px;
+	margin:0 2px 0;
+	color:#003E49;
+	font-size:12px;
+	text-shadow:0 1px 0 #6CDCF9;
+	cursor:pointer;
+}
+#area_box .ccl_btn {
+	background:#D0D1D4 url(../images/btn_submit.png) repeat-x;
+	border:1px solid #A8A9A8;
+	box-shadow:0 1px 0 #fff;
+	font-weight:bold;
+	border-radius:3px;
+	padding:6px 11px;
+	color:#666;
+	font-size:12px;
+	text-shadow:0 1px 0 #fff;
+	cursor:pointer;
+}

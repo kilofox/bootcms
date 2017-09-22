@@ -1,0 +1,210 @@
+.showcase-load {
+	height:470px;
+	overflow:hidden;
+}
+
+.showcase {
+	position:relative;
+}
+
+.showcase-arrow-previous,.showcase-arrow-next {
+	position:absolute;
+	background:url(../images/showcase/arrows.png);
+	width:33px;
+	height:33px;
+	top:220px;
+	cursor:pointer;
+}
+
+.showcase-arrow-previous {
+	left:10px;
+	z-index:1;
+}
+
+.showcase-arrow-previous:hover {
+	background-position:0 -34px;
+}
+
+.showcase-arrow-next {
+	right:10px;
+	background-position:-34px 0;
+	z-index:1;
+}
+
+.showcase-arrow-next:hover {
+	background-position:-34px -34px;
+}
+
+.showcase-content {
+	background-color:#000;
+	text-align:center;
+}
+
+.showcase-content-wrapper {
+	text-align:center;
+	height:470px;
+	width:700px;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.showcase-plus-anchor {
+	background-image:url(../images/showcase/plus.png);
+	background-repeat:no-repeat;
+}
+
+.showcase-plus-anchor:hover {
+	background-position:-32px 0;
+}
+
+div.showcase-tooltip {
+	background-color:#fff;
+	color:#000;
+	text-align:left;
+	background-image:url(../images/showcase/white-opacity-80.png);
+	padding:5px 8px;
+}
+
+.showcase-caption {
+	color:#000;
+	text-align:left;
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	right:10px;
+	display:none;
+	background-image:url(../images/showcase/white-opacity-80.png);
+	padding:8px 15px;
+}
+
+.showcase-button-wrapper {
+	clear:both;
+	margin-top:10px;
+	text-align:center;
+}
+
+.showcase-button-wrapper span {
+	margin-right:3px;
+	cursor:pointer;
+	font-size:12px;
+	color:#444;
+	padding:2px 5px 0;
+}
+
+.showcase-button-wrapper span.active {
+	color:#fff;
+}
+
+.showcase-thumbnail-wrapper {
+	overflow:hidden;
+}
+
+.showcase-thumbnail {
+	width:120px;
+	height:90px;
+	cursor:pointer;
+	border:solid 1px #333;
+	position:relative;
+}
+
+.showcase-thumbnail-caption {
+	position:absolute;
+	bottom:2px;
+	padding-left:10px;
+	padding-bottom:5px;
+}
+
+.showcase-thumbnail-content {
+	text-align:center;
+	padding:25px 10px 10px;
+}
+
+.showcase-thumbnail-cover {
+	background-image:url(../images/showcase/black-opacity-40.png);
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.showcase-thumbnail-wrapper-horizontal .showcase-thumbnail {
+	margin-right:10px;
+	width:116px;
+}
+
+.showcase-thumbnail-button-backward,.showcase-thumbnail-button-forward {
+	cursor:pointer;
+	padding:7px;
+}
+
+.showcase-thumbnail-button-backward {
+	padding-bottom:0;
+	padding-right:0;
+}
+
+.showcase-thumbnail-button-backward .showcase-thumbnail-vertical,.showcase-thumbnail-button-forward .showcase-thumbnail-vertical,.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal,.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal {
+	background-image:url(../images/showcase/arrows-small.png);
+	background-repeat:no-repeat;
+	display:block;
+	width:17px;
+	height:17px;
+}
+
+.showcase-thumbnail-button-backward .showcase-thumbnail-vertical {
+	background-position:0 -51px;
+	margin-left:55px;
+}
+
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-vertical {
+	background-position:-17px -51px;
+}
+
+.showcase-thumbnail-button-forward .showcase-thumbnail-vertical {
+	background-position:0 -34px;
+	margin-left:55px;
+}
+
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-vertical {
+	background-position:-17px -34px;
+}
+
+.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal {
+	background-position:0 -17px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-horizontal {
+	background-position:-17px -17px;
+}
+
+.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal {
+	background-position:0 0;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-horizontal {
+	background-position:-17px 0;
+}
+
+#awOnePageButton .view-slide,.showcase-thumbnail:hover .showcase-thumbnail-cover,.showcase-thumbnail.active .showcase-thumbnail-cover,.showcase-thumbnail-button-forward span span,.showcase-thumbnail-button-backward span span {
+	display:none;
+}
+
+.showcase-content-container,.showcase-thumbnail-container /* Used for backgrounds,no other styling!!! */ {
+	background-color:#000;
+}
+
+.showcase-onepage .showcase-content,.showcase-thumbnail-wrapper-vertical .showcase-thumbnail {
+	margin-bottom:10px;
+}
+
+.showcase-thumbnail:hover,.showcase-thumbnail.active {
+	border:solid 1px #999;
+}
+
+.showcase-thumbnail-wrapper-horizontal,.showcase-thumbnail-wrapper-vertical {
+	padding:10px;
+}
